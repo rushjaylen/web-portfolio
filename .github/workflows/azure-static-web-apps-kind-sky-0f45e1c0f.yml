@@ -5,6 +5,6 @@
     azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_KIND_SKY_0F45E1C0F }}
     action: "upload"
     app_location: "/" # where your app source is (repo root)
-    output_location: "build" # where React builds to
+    output_location: "dist" # where React builds to
     app_build_command: "npm install && npm run build"
     github_id_token: ${{ steps.idtoken.outputs.result }}
